@@ -1,0 +1,9 @@
+guage: node_js
+node_js: node
+deploy:whispering-plains-45564
+  provider: heroku
+  api_key:
+    secure: iflDhbW7FijL0Ite/QbSfrHKa/GNnttVxFfJuljcyhK404for3/i5eqGR1eaBglvfebOaGltLoZAGyPwPeWXXzXQuqRw4C/BA34EXYyruhBXhg8xHxXgsrMTbUfy+gTGXz5o8ptlGJh8yxl0V3vjiSPMQQjbVuqHJI9qW31hIqKXn8cGrnHbEbJus//r27qqA9aQDG+IllmZTDoOBPcNpg4H7PkYrKVKyj2WFBtF6n9gh112iDj3Our+h8S3Axv9MvwljRA/hHwmqnu6nJ8LBFB7ssY3x3DbjaBvqJyl+GrvlKyZeLGjKTgXnr8UGhz+zYK8Gw1WxoKbBfZfjtfxOtsdfRL+DeCiR5kvd0vMhrNoTxhMmxksoIhZJG6hjDkOCIbDc7MWRu7GH24rg0DoxkofY2/b1QxmqJrgmd4JSIbw+SkeTpfVy/RfLHHSqArvC0kls44wxHinIth5mgMs3u+FrWqla+PgLRolq0rvBP1UBu0hoz/4QcMZOb2aMBt7rQI9Z4CQc3KDIYHBUgZ8anBMOusIzaV+9z9HtADvZaS6O6Dd6yrbAD20/HDns1utlOPUOIBc4G8sI3L8ieavqJwWii7WSI1AS5ZYGxGL5BNCiR57DFcZKNXjLMmGcpXlVGzI5i2RazJOhI/Qi0jo5wczYtJkq1GO61UB1Cr+N+U=
+  app: node-shopping-list-integration-tests
+  on:
+    repo: complicationlamp/node-shopping-list-integration-tests
